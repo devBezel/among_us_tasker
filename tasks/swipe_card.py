@@ -1,5 +1,6 @@
 import pyautogui
 import time
+import datetime
 
 
 class SwipeCard:
@@ -34,7 +35,9 @@ class SwipeCard:
 
     def log(self):
         time = datetime.datetime.now()
-		print(f"[{time.hour}:{time.minute}][ZADANIE] Rozwiązauje kartę w adminie")
+        print(
+            f"[{time.hour}:{time.minute}][ZADANIE] Rozwiązauje kartę w adminie"
+        )
 
     def run(self):
         return self.resolve_task()

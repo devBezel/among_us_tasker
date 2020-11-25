@@ -6,12 +6,12 @@ from utilities.read_task import ReadTask
 
 START_FREEZE_SECONDS = 2
 
-
 def main():
 
-    print(f"Amongtasker.. Poczekaj {START_FREEZE_SECONDS} sekund na wlączenie zadań")
+    print(
+        f"Amongtasker.. Poczekaj {START_FREEZE_SECONDS} sekund na wlączenie zadań"
+    )
     time.sleep(START_FREEZE_SECONDS)
-
 
     while True:
         time.sleep(0.5)
