@@ -1,17 +1,10 @@
 from configparser import ConfigParser
 
-
-class Config:
-
-	CONFIG_PATH = "config.ini"
-
-	def __init__(self, section, text):
-		self.section = section
-		self.text = text
+CONFIG_PATH = "config.ini"
 
 
-	def get(self):
-		config = ConfigParser()
-		config.read(self.CONFIG_PATH)
+def get_config(section, text):
+	config = ConfigParser()
+	config.read(CONFIG_PATH)
 
-		return config[self.section][self.text]
+	return config[section][text]

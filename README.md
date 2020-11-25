@@ -4,6 +4,9 @@
 
 This does not manage the game memory! You won't get a ban for this.
 
+# Note!
+ - there is a problem in python 3.9 and the script may not work properly.
+
 # Features!
 
   - Cable solving

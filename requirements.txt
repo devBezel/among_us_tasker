@@ -1,2 +1,5 @@
 pyautogui
 keyboard
+Pillow
+opencv-python
+datetime

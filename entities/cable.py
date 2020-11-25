@@ -7,4 +7,4 @@ class Cable:
 		return self.position
 
 	def get_colour(self):
-		return self.colour_rgb 
+		return self.colour_rgb
